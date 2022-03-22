@@ -1,0 +1,15 @@
+{
+  "name": "接口文档名称",
+  "version": "1.0.0",
+  "description": "接口文档描述",
+  "title": "接口文档浏览器标题",
+  "url" : "http://api.abc.com/",
+  "header": {
+    "title": "接口通用规则",
+    "filename": "./apidoc/header.md"
+  },
+  "footer": {
+    "title": "API 错误返回值说明",
+    "filename": "./apidoc/footer.md"
+  }
+}
