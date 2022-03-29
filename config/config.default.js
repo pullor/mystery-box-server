@@ -24,11 +24,10 @@ module.exports = appInfo => {
   config.keys = appInfo.name + '_1647853056237_4236';
 
   // add your middleware config here
-  config.middleware = [ 'errorHandler' ];
-  config.errorHandler = {
+  config.middleware = [ 'resHandler' ];
+  config.resHandler = {
     match: '/api',
   };
-
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',
